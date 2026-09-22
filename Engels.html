@@ -6,7 +6,7 @@
 </head>
 
 <style>
-    body {background-color: rgb(31, 30, 30);
+    body {background-image: url("./images/tumblr_o30zqaVCpS1qg39ewo1_500.gif");
         background-position: center;
         background-size: cover;
         size-adjust: fix; }
@@ -33,10 +33,15 @@
         flex: 1;
         text-align: left;
         background-color:rgba(0, 0, 0, 0.6);
-        color: white;}
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;}
 
-        .information {
-            font-size:20px}
+        .information {font-size: 20px}
+
+    .socials {font-size: 20px;
+        float: right;}
     
     .spacer {text-align: center;
         font-size:30px;
@@ -78,36 +83,50 @@
         height: 300px;
         margin: auto;}
 
+    .language-button {display: inline-block;
+        padding: 8px 15px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;}
+
+    .back-button {display: inline-block;
+        padding: 8px 15px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;}
+
     
 </style>
 
 <body>
 
-    <a href="../index.html">◀ Hub Page</a>
-
-    
+    <a href="../index.html" class="back-button">Back to The Hub</a>
+    <a href="./Index.htm" class="language-button">NL / ENG</a>
     <h1>Dorian's Graveyard</h1>
-    <p class="header">This is my first website.</p>
+    <p class="header">Dit is mijn eerste website.</p>
  <hr>
 
  <section class="profile">
 
-    <img class="me" src="images/Me.png" alt="Me">
+    <img class="me" src="./images/Me.png" alt="Me">
 
     <section class="info">
 
         <section class="information">
          <h2>Info</h2>
-         <p> My name is Dorian, I am 20 years old. <br> I am currently taking the ICT course at Gilde. <br> I was born on November 12, 2005.</p>
-         <a href="https://vrykolakass.github.io/Dorians-Graveyard/">Oude website (hulp van AI)</a>
+         <p>My name is Dorian, I am 20 years old. <br> I am currently studying ICT at Gilde. <br> I was born on November 12, 2005.</p>
         </section>
 
-        <aside class="socials">
+        <section class="socials">
              <h2>Links</h2>
              <a href="Privacy Verklaring!.pdf" target="_blank" >Privacy statements</a>
-             <a href="link">Naam</a>
-             <a href="link">Naam</a>
-         </aside>
+             <br>
+             <a href="tel:+31611111111">06 11111111</a>
+             <br>
+             <a href="mailto:Dorian.de.jong@student.gildeopleidingen.nl">Dorian.de.jong@student.gildeopleidingen.nl</a>
+         </section> 
 
     </section>
 
@@ -121,36 +140,36 @@
 
      <section class="Over-mij">
      <details>
-        <summary>About me</summary>
+        <summary>About Me</summary>
         <p>Here comes my longer text...</p>
      </details>
 
      <details>
-         <summary>Hobby's</summary>
-        <p>In my free time, I drum, enjoy gaming, and being creative. For example, I occupy myself with making clothes.</p>
+         <summary>Hobbies</summary>
+        <p>In my free time, I enjoy drumming, gaming, and being creative. For example, I like making clothes.</p>
      </details>
 
      <details>
          <summary>Music & Style</summary>
-         <p>I primarily listen to goth and other dark music genres. Music is an important part of my style and personality. I also have a gothic clothing style.</p>
+         <p>I mainly listen to goth and other darker music genres. Music is an important part of my style and personality. I also have a gothic clothing style.</p>
      </details>
 
      <details>
          <summary>Movies</summary>
-         <p>I enjoy watching films in the fantasy, action, science fiction, and adventure genres. My favorite films include Pirates of the Caribbean, The Lord of the Rings, and X-Men. <br> Pirates of the Caribbean is my favorite film series. I saw the first film for the first time when I was eight years old and I still consider it one of the best films I have ever seen.</p>
+         <p>I enjoy watching movies in the fantasy, action, science fiction, and adventure genres. Some of my favorite movies include Pirates of the Caribbean, The Lord of the Rings, and X-Men. <br> Pirates of the Caribbean is my favorite movie franchise. I first saw the first movie when I was eight years old, and I still consider it one of the best movie series I have ever seen.</p>
      </details>
 
      <details>
          <summary>Pets</summary>
-         <p>I have a cat at home named Nova, she is now 4 years old.</p>
+         <p>I have a cat named Nova at home. She is currently 4 years old.</p>
        </details>
      </section>
  
      <section class="Muziek">
-         <img src="images/LAM_album_cover.jpg" alt="London After Midnight">
-         <img src="images/NIN_cover.jpg" alt="Nine Inch Nails">
-         <img src="images/FIR_cover.jpg" alt="Falling in Reverse">
-         <img src="images/Trench_cover.jpg" alt="Twenty One Pilots">
+         <img src="./images/LAM_album_cover.jpg" alt="London After Midnight">
+         <img src="./images/NIN_cover.jpg" alt="Nine Inch Nails">
+         <img src="./images/FIR_cover.jpg" alt="Falling in Reverse">
+         <img src="./images/Trench_cover.jpg" alt="Twenty One Pilots">
     </section>
     
  </section>
